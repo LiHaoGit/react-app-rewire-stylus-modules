@@ -1,6 +1,6 @@
 {
-  "name": "react-app-rewire-stylus-modules",
-  "version": "0.0.2",
+  "name": "customize-cra-stylus-modules",
+  "version": "0.1.2",
   "dependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
