@@ -1,21 +1,21 @@
 # react-app-rewire-stylus-modules
 
 Add Stylus and Stylus module support to
-[create-react-app](https://github.com/facebookincubator/create-react-app) 2.0 via
+[create-react-app](https://github.com/facebookincubator/create-react-app) 4.x via
 [react-app-rewired](https://github.com/timarney/react-app-rewired).
 
-`Create react app 2.0` already supports CSS modules. This extension adds support for regular less files and *.module.styl files.
+`Create react app 4.0` already supports CSS modules. This extension adds support for regular less files and *.module.styl files.
 
 ## Installation
 
 ```
-npm install --save-dev react-app-rewire-stylus-modules
+npm install --save-dev customize-cra-stylus-modules
 ```
 
 OR
 
 ```
-yarn add --dev react-app-rewire-stylus-modules
+yarn add --dev customize-cra-stylus-modules
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ In your react-app-rewired configuration:
 ```javascript
 /* config-overrides.js */
 
-const rewireStyl = require("react-app-rewire-stylus-modules");
+const rewireStyl = require("customize-cra-stylus-modules");
 
 module.exports = function override(config, env) {
   

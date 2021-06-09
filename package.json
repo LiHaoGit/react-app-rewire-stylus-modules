@@ -1,6 +1,12 @@
 {
   "name": "customize-cra-stylus-modules",
   "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiHaoGit/react-app-rewire-stylus-modules"
+  },
+  "homepage": "https://github.com/LiHaoGit/react-app-rewire-stylus-modules",
+  "bugs":"https://github.com/LiHaoGit/react-app-rewire-stylus-modules/issues",
   "dependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
